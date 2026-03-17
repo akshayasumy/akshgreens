@@ -1,0 +1,138 @@
+SECTION 1
+1. pwd
+
+Shows the current working directory path.
+Example: pwd
+
+2. ls
+
+Lists files and directories in the current location.
+Example: ls -l
+
+3. cd
+
+Changes the current directory.
+Example: cd Documents
+
+4. mkdir
+
+Creates a new directory.
+Example: mkdir project
+
+5. rm -rf
+
+Deletes files or directories forcefully and recursively.
+Example: rm -rf folder_name
+
+6. ps -ef
+
+Displays all running processes in detailed format.
+Example: ps -ef
+
+7. top
+
+Shows real-time system processes and CPU usage.
+Example: top
+
+8. df -h
+
+Displays disk space usage in human-readable format.
+Example: df -h
+
+9. history
+
+Shows previously executed commands.
+Example: history
+
+10. uptime
+
+Shows how long the system has been running.
+Example: uptime
+
+ SECTION 2 
+1. Create a directory called project-files
+
+mkdir project-files
+
+2. Navigate into the project-files directory
+
+cd project-files
+
+3. Create a file called notes.txt using vi
+
+vi notes.txt
+
+4. Display the contents of notes.txt
+
+cat notes.txt
+
+5. Copy notes.txt to backup.txt
+
+cp notes.txt backup.txt
+
+6. Show the first 100 lines of logs.txt
+
+head -n 100 logs.txt
+
+7. Show the last 100 lines of logs.txt
+
+tail -n 100 logs.txt
+
+8. Check disk storage usage
+
+df -h
+
+9. Check running processes
+
+ps -ef
+
+10. Delete a file called temp.txt
+
+rm temp.txt
+
+ SECTION 3 
+1. Difference between > and >>
+
+> overwrites the file content.
+>> appends data to the existing file.
+
+2. Purpose of kill -9
+
+Forcefully terminates a process.
+Used when a process does not stop normally.
+
+3. Difference between rm and rmdir
+
+rm deletes files and directories.
+rmdir deletes only empty directories.
+
+4. Purpose of netstat -tulpn
+
+Shows active network connections and listening ports.
+Also displays associated process IDs.
+
+5. Purpose of ping
+
+Checks connectivity between two systems.
+Measures response time from a server.
+
+ SECTION 4 
+1. Check current working directory
+
+pwd
+
+2. Create devops directory inside home
+
+mkdir ~/devops
+
+3. Check high CPU process
+
+top
+
+4. Check connection to google.com
+
+ping google.com
+
+5. View last 50 lines of application.log
+
+tail -n 50 application.log
